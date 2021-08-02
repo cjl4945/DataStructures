@@ -8,7 +8,7 @@ public class Queue {
         Stack<String> stk = new Stack<>();
         stk.push("one");
         stk.push("stop");
-        
+
         System.out.println(stk.peek());
         for (String str : stk){
             System.out.println(str);
